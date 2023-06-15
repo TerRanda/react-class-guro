@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.modal{
+  background: #F6F6F6;
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+}
+button{
+  width: 80px;
+  height: 35px;
+}
+button:hover{
+  border-color: grey;
+}
