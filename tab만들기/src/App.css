@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.modal{
+  background: #F6F6F6;
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+}
+button{
+  width: 80px;
+  height: 35px;
+}
+button:hover{
+  border-color: grey;
+}
+
+.tab-ui{
+  background: #F6F6F6;
+  padding: 20px;
+  width: 300px;
+}
+.tab-ui .tab-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tab-ui .tab-group a{
+  background: white;
+  color: black;
+  margin: 10px 5px;
+  padding: 5px;
+  text-decoration: none;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.tab-ui .tab-group a:hover{
+  background-color: #fff;
+}
+.tab-ui .tab-group a:focus{
+  background-color: black;
+  color: white;
+}
+.tab-contents{
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px 10px;
+}
+.tab-contents h1{
+  margin: 5px;
+}
